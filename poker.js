@@ -114,10 +114,11 @@ const scoreHand = input => {
       four_kind_card = card;
     }
   });
+
   if (four_kind) {
     return [
-      values.four_kind.score + 4 * four_kind_card,
-      `Four ${values.words[three_kind_value]}`
+      values.four_kind.score + 4 * values.cards[four_kind_card],
+      `Four ${values.words[values.cards[four_kind_card]]}s`
     ];
   }
 
