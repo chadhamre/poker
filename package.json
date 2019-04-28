@@ -1,0 +1,7 @@
+{
+  "name": "poker",
+  "version": "1.0.0",
+  "main": "poker.js",
+  "author": "Chad Hamre <chadhamre@gmail.com>",
+  "license": "MIT"
+}
